@@ -1,35 +1,34 @@
-📚 Library Management System (SQL)
-📝 Project Description
-This project is a relational database system designed for managing a library's book inventory, member details, and book borrowing records. The database ensures smooth operations by tracking book availability, member registrations, and loan transactions.
+Database Management Internship – Brainwave
+This repository contains projects developed as part of my Database Management Internship at Brainwave. The focus of this internship was on SQL database design, data modeling, and query development for real-world applications.
 
-Built using MySQL, this database allows efficient storage and retrieval of information, ensuring seamless library management.
+**📌 Project 1: Library Management System 📚**
+A comprehensive Library Management System designed to efficiently manage book records, user information, borrowing transactions, and fine calculations. This database helps automate library operations and ensures smooth book lending processes.
 
-🚀 Features
-✔ Books Table – Stores book details like title, author, ISBN, genre, and availability.
-✔ Members Table – Stores member details like name, email, phone, and join date.
-✔ Borrowing Table – Tracks book borrowing and returns with automatic updates.
-✔ Data Integrity – Uses FOREIGN KEYS to maintain relationships.
-✔ Triggers for Automation – Updates book availability when borrowed/returned.
-✔ Queries for Analysis – Find borrowed books, overdue returns, and available books.
+📂 Features & Functionalities
+Book Management: Store book details (title, author, genre, availability).
+User Management: Maintain member details (name, ID, membership status).
+Borrow & Return Transactions: Track borrowed books and return dates.
+Fine Calculation: Automatically calculate overdue fines for late returns.
+Search & Filtering: Query books based on title, author, or genre.
+💻 Technologies Used
+MySQL for database design and management.
+SQL Queries (DDL, DML) to create tables and perform operations.
 
-🏗️ Database Structure
-📌 Tables:
-1️⃣ Books – Stores book details and availability status.
-2️⃣ Members – Stores registered library members.
-3️⃣ Borrowing – Tracks transactions when a book is borrowed or returned.
+**📌 Project 2: Online Store Database System 🛒**
+An E-commerce Database Management System designed to handle products, customers, orders, and payments. This project focuses on order processing, inventory management, and payment tracking.
 
-📌 Relationships:
-Members ↔ Borrowing: Member_ID (Foreign Key)
-Books ↔ Borrowing: Book_ID (Foreign Key)
-📂 SQL Scripts
-library_db.sql – Full SQL script for creating and populating the database.
-queries.sql – Queries for managing and analyzing data.
-triggers.sql – SQL Triggers for automatic updates.
-🛠️ Technologies Used
-Database: MySQL
-SQL Concepts: CRUD operations, Joins, Triggers, Constraints
-
-📢 Future Improvements
-🔹 Implement a User Interface (UI) with Python/Java for easier access.
-🔹 Add Fine Calculation System for overdue books.
-🔹 Develop a search functionality for books.
+📂 Features & Functionalities
+Product Catalog: Store product details (name, description, price, stock).
+Customer Management: Maintain customer records (name, email, address).
+Order Processing: Handle orders, calculate total amounts, and update inventory.
+Order Tracking: Track order status (Pending, Shipped, Delivered).
+Payment Handling: Store payment transactions with different payment modes.
+💻 Technologies Used
+MySQL for relational database management.
+SQL Queries (DDL, DML, DCL) to manage transactions and enforce constraints.
+📑 Learning Outcomes
+During this internship, I gained hands-on experience in:
+✅ Database Design – Normalization, entity relationships, and constraints.
+✅ SQL Query Optimization – Writing efficient queries for complex transactions.
+✅ Data Integrity & Security – Using primary/foreign keys and access control.
+✅ Real-world Applications – Developing databases for practical business use cases.
